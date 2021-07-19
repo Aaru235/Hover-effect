@@ -1,0 +1,180 @@
+h1
+{
+   background-color: rgb(216, 195, 195);
+   margin-top: 10%;
+   text-align: center;
+}
+
+.creators
+{
+   width: 100%;
+   padding: 20px;
+   margin: 100px auto;	 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+
+
+.imgAA{
+   margin-top: 1%;
+   margin: 5 20px;
+   box-shadow: 0 5px 1px 0 rgba(0, 0, 0, .4);
+   transition: 0.75s;
+   display: block;
+   border-radius: 5px;
+}
+
+.imgAA:hover{
+   box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
+   transform: scale(1.3);
+   z-index: 1;
+}
+
+#edit
+{
+   text-align: center;
+}
+
+.infoAarushi
+{
+   position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.infoAarushi--blur {
+   backdrop-filter: blur(5px);
+}
+
+.infoAarushi--primary {
+   background: #009578;
+}
+
+.infoAarushi > * {
+   transform: scale(1.3);
+   z-index: 1;
+}
+
+.infoAarushi:hover {
+   opacity: 1;
+}
+
+
+
+.infoSimone
+{
+   position: absolute;
+   top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.infoSimone--blur {
+   backdrop-filter: blur(5px);
+}
+
+.infoSimone--primary {
+   background: #009578;
+}
+
+.infoSimone > * {
+   transform: scale(1.3);
+   z-index: 2;
+}
+
+.infoSimone:hover {
+   opacity: 1;
+}
+
+.infoSneha
+{
+   position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.infoSneha--blur {
+   backdrop-filter: blur(5px);
+}
+
+.infoSneha--primary {
+   background: #009578;
+}
+
+.infoSneha > * {
+   transform: scale(1.3);
+   z-index: 2;
+}
+
+.infoSneha:hover {
+   opacity: 1;
+}
+
+.infoDishva
+{
+   position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.infoDishva--blur {
+   backdrop-filter: blur(5px);
+}
+
+.infoDishva--primary {
+   background: #009578;
+}
+
+.infoDishva > * {
+   transform: scale(1.3);
+   z-index: 2;
+}
+
+.infoDishva:hover {
+   opacity: 1;
+}
